@@ -98,7 +98,7 @@ check_pat() {
 # fix redo
 readonly BRP_PAT_FILE="${BRP_CACHE_DIR}/${BRP_REL_OS_ID}.pat"
 readonly EXTRACT_PAT_FILE="${BRP_CACHE_DIR}/extract.tar.gz"
-readonly EXTRACT_PAT_URL='https://global.download.synology.com/download/DSM/release/7.0.1/42218/DSM_DS3615xs_42218.pat'
+readonly EXTRACT_PAT_URL='https://global.download.synology.com/download/DSM/release/7.0.1/42218/DSM_DS3617xs_42218.pat'
 
 if [ -f "${BRP_PAT_FILE}.org" ] && [ -f "${BRP_PAT_FILE}" ]; then
   pr_info "Found patched PAT file - Patch the PAT checksum"
